@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" role="img" aria-labelledby="title desc">
+  <title id="title">IKAT origin community</title>
+  <desc id="desc">An illustrated origin community group standing in green cacao fields.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e4c88a"/>
+      <stop offset="1" stop-color="#234022"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="360" fill="url(#sky)"/>
+  <path d="M0 198c116-68 230-83 342-45 139 47 281 22 418-75v282H0Z" fill="#162916" opacity=".75"/>
+  <path d="M0 270c142-52 267-58 376-18 101 37 229 25 384-36v144H0Z" fill="#0f2113"/>
+  <g transform="translate(105 92)">
+    <g fill="#d8a06f">
+      <circle cx="54" cy="58" r="34"/><circle cx="168" cy="48" r="36"/><circle cx="282" cy="62" r="35"/><circle cx="394" cy="56" r="34"/><circle cx="506" cy="62" r="35"/>
+    </g>
+    <g fill="#262019">
+      <path d="M20 52c14-54 83-55 70 4-22-12-45-13-70-4Z"/>
+      <path d="M132 44c11-58 83-59 73 2-22-12-47-13-73-2Z"/>
+      <path d="M248 58c11-55 76-56 68 3-19-11-42-12-68-3Z"/>
+      <path d="M360 52c10-54 77-54 68 2-20-10-43-11-68-2Z"/>
+      <path d="M470 60c12-56 78-58 72 0-22-10-46-10-72 0Z"/>
+    </g>
+    <g>
+      <path d="M0 268c8-92 28-146 67-146s62 54 74 146Z" fill="#f1eadb"/>
+      <path d="M110 268c9-102 30-158 70-158s63 56 76 158Z" fill="#22221b"/>
+      <path d="M224 268c7-92 28-145 67-145s62 53 75 145Z" fill="#a68b68"/>
+      <path d="M336 268c8-96 28-150 68-150s61 54 73 150Z" fill="#ede3d3"/>
+      <path d="M448 268c9-94 31-146 70-146s61 52 72 146Z" fill="#cbbf9d"/>
+    </g>
+  </g>
+</svg>

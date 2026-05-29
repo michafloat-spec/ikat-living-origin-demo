@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Satellite forest farm area</title>
+  <desc id="desc">A faux satellite jungle image with a finely marked farm boundary.</desc>
+  <defs>
+    <filter id="canopyNoise">
+      <feTurbulence type="fractalNoise" baseFrequency=".018 .03" numOctaves="5" seed="18"/>
+      <feColorMatrix
+        type="matrix"
+        values=".10 .18 .08 0 .02
+                .08 .24 .10 0 .08
+                .06 .12 .16 0 .10
+                0 0 0 1 0"
+      />
+      <feComponentTransfer>
+        <feFuncR type="gamma" amplitude="1.18" exponent="1.18"/>
+        <feFuncG type="gamma" amplitude="1.12" exponent=".92"/>
+        <feFuncB type="gamma" amplitude=".92" exponent="1.25"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="fineTexture">
+      <feTurbulence type="fractalNoise" baseFrequency=".11 .13" numOctaves="3" seed="42"/>
+      <feColorMatrix
+        type="matrix"
+        values=".08 .08 .08 0 0
+                .08 .10 .08 0 0
+                .07 .08 .10 0 0
+                0 0 0 .34 0"
+      />
+    </filter>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#07140d" flood-opacity=".42"/>
+    </filter>
+    <linearGradient id="terrainShade" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#243e35" stop-opacity=".12"/>
+      <stop offset=".45" stop-color="#0b1f18" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#102b20" stop-opacity=".4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="520" fill="#18352c"/>
+  <rect width="900" height="520" filter="url(#canopyNoise)" opacity=".96"/>
+  <rect width="900" height="520" filter="url(#fineTexture)" opacity=".72"/>
+  <rect width="900" height="520" fill="url(#terrainShade)"/>
+
+  <g opacity=".28" fill="none" stroke-linecap="round">
+    <path d="M-24 348c94-52 181-79 260-82 81-3 157 20 228 69 82 56 179 73 292 49 64-14 122-35 176-63" stroke="#254d3c" stroke-width="34"/>
+    <path d="M24 76c80 30 154 42 222 36 78-7 146-31 203-73 102 70 203 117 303 141 73 18 128 44 166 79" stroke="#0b2119" stroke-width="28"/>
+    <path d="M-40 190c91 33 180 44 267 33 88-11 176-42 264-93 111 84 232 132 363 144" stroke="#375b43" stroke-width="20"/>
+  </g>
+
+  <g opacity=".5" fill="none" stroke="#47664d" stroke-width="1">
+    <path d="M72 520c73-152 113-323 118-520"/>
+    <path d="M244 520c34-167 40-338 18-520"/>
+    <path d="M412 520c23-132 67-305 132-520"/>
+    <path d="M708 520c-18-142-8-315 30-520"/>
+    <path d="M0 108c142 44 274 61 396 52 142-11 310 18 504 88"/>
+    <path d="M0 306c154-24 292-19 414 16 129 37 291 40 486 8"/>
+  </g>
+
+  <g opacity=".65">
+    <path d="M80 86c38-20 73-25 106-14" stroke="#f4e8be" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M94 104c29-13 58-15 88-7" stroke="#fff5d9" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M37 210c22-24 48-33 78-29" stroke="#614332" stroke-width="5" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <polygon
+      points="405,190 545,166 618,252 486,309"
+      fill="#f4ecbd"
+      fill-opacity=".13"
+      stroke="#f9f1cf"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M405 190 545 166 618 252 486 309Z"
+      fill="none"
+      stroke="#2f4e39"
+      stroke-opacity=".75"
+      stroke-width=".8"
+      stroke-linejoin="round"
+    />
+    <g fill="#fff7d9" stroke="#354e35" stroke-width="1.5">
+      <circle cx="405" cy="190" r="5"/>
+      <circle cx="545" cy="166" r="5"/>
+      <circle cx="618" cy="252" r="5"/>
+      <circle cx="486" cy="309" r="5"/>
+    </g>
+  </g>
+</svg>

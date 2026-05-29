@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 260" role="img" aria-labelledby="title desc">
+  <title id="title">IKAT QR demo preview</title>
+  <desc id="desc">A stylized local QR code placeholder for the IKAT Living Origin demo.</desc>
+  <rect width="260" height="260" rx="18" fill="#fffaf2"/>
+  <rect x="18" y="18" width="224" height="224" rx="10" fill="#f7f1e7"/>
+  <g fill="#1d1712">
+    <path d="M34 34h54v54H34Zm14 14v26h26V48ZM172 34h54v54h-54Zm14 14v26h26V48ZM34 172h54v54H34Zm14 14v26h26v-26Z"/>
+    <rect x="106" y="34" width="18" height="18"/>
+    <rect x="136" y="34" width="18" height="18"/>
+    <rect x="106" y="64" width="48" height="18"/>
+    <rect x="106" y="106" width="18" height="48"/>
+    <rect x="136" y="106" width="18" height="18"/>
+    <rect x="166" y="106" width="60" height="18"/>
+    <rect x="136" y="136" width="60" height="18"/>
+    <rect x="208" y="136" width="18" height="48"/>
+    <rect x="106" y="172" width="18" height="54"/>
+    <rect x="136" y="172" width="18" height="18"/>
+    <rect x="166" y="172" width="30" height="18"/>
+    <rect x="136" y="208" width="90" height="18"/>
+  </g>
+  <circle cx="130" cy="130" r="29" fill="#234f3c"/>
+  <text x="130" y="136" text-anchor="middle" fill="#fffaf2" font-family="Arial, sans-serif" font-size="20" font-weight="900">IKAT</text>
+</svg>

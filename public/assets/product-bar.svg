@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 340" role="img" aria-labelledby="title desc">
+  <title id="title">IKAT demo product pack</title>
+  <desc id="desc">A premium chocolate style IKAT Living Origin demo pack.</desc>
+  <defs>
+    <linearGradient id="pack" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff6df"/>
+      <stop offset=".48" stop-color="#e9c980"/>
+      <stop offset="1" stop-color="#7c3f25"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="340" fill="none"/>
+  <path d="M84 54h288l64 232H148Z" fill="#24160f" opacity=".25"/>
+  <path d="M108 32h288l42 232H150Z" fill="url(#pack)"/>
+  <path d="M108 32h288l13 72H121Z" fill="#234f3c"/>
+  <path d="M150 124h190l6 32H156Z" fill="#fffaf2" opacity=".86"/>
+  <path d="M161 176h144l5 24H166Z" fill="#fffaf2" opacity=".52"/>
+  <text x="145" y="78" fill="#fffaf2" font-family="Arial, sans-serif" font-size="38" font-weight="900">IKAT</text>
+  <text x="146" y="100" fill="#dce8d5" font-family="Arial, sans-serif" font-size="13" font-weight="700">LIVING ORIGIN</text>
+  <text x="163" y="149" fill="#1d1712" font-family="Arial, sans-serif" font-size="24" font-weight="900">CACAO 74%</text>
+  <circle cx="358" cy="190" r="42" fill="#7c3f25"/>
+  <path d="M344 190c0-18 14-30 31-30 5 19-5 39-31 30Z" fill="#f2b950"/>
+  <path d="M330 229c26-14 53-14 80 0" fill="none" stroke="#234f3c" stroke-width="10" stroke-linecap="round"/>
+</svg>

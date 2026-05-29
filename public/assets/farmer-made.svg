@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+  <title id="title">IKAT origin partner portrait</title>
+  <desc id="desc">Warm illustrated portrait of an IKAT origin partner in cacao fields.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f2b950"/>
+      <stop offset=".55" stop-color="#234f3c"/>
+      <stop offset="1" stop-color="#1f4f6e"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="520" fill="url(#bg)"/>
+  <circle cx="576" cy="112" r="70" fill="#fff1b5" opacity=".55"/>
+  <path d="M0 380c132-66 248-84 348-54 142 42 258 22 372-61v255H0Z" fill="#173327" opacity=".75"/>
+  <path d="M140 402c60-150 106-226 218-226 122 0 184 88 226 226Z" fill="#0f241c" opacity=".5"/>
+  <path d="M242 166c18-82 174-86 196 0 10 37-13 74-30 91H274c-18-18-42-55-32-91Z" fill="#1d1712"/>
+  <circle cx="340" cy="210" r="88" fill="#b86f48"/>
+  <path d="M258 203c24-72 90-92 166-58-18 42-66 62-166 58Z" fill="#1d1712"/>
+  <path d="M291 248c37 30 73 30 109 0" fill="none" stroke="#6b3725" stroke-width="10" stroke-linecap="round"/>
+  <path d="M218 520c12-112 54-181 126-181s116 69 132 181Z" fill="#fffaf2"/>
+  <path d="M252 520c18-102 48-153 92-153s77 51 98 153Z" fill="#b85f3d"/>
+  <g fill="#d9a45e" opacity=".9">
+    <ellipse cx="96" cy="335" rx="32" ry="52" transform="rotate(-28 96 335)"/>
+    <ellipse cx="632" cy="326" rx="32" ry="52" transform="rotate(24 632 326)"/>
+    <ellipse cx="572" cy="395" rx="26" ry="42" transform="rotate(-28 572 395)"/>
+  </g>
+</svg>

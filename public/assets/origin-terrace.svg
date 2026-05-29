@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">IKAT origin landscape illustration</title>
+  <desc id="desc">Layered highland fields with sunlit terraces and cacao trees.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#89b6ca"/>
+      <stop offset=".48" stop-color="#f0c46a"/>
+      <stop offset="1" stop-color="#2d5a40"/>
+    </linearGradient>
+    <linearGradient id="hill" x1="0" x2="1">
+      <stop offset="0" stop-color="#1f4f6e"/>
+      <stop offset=".55" stop-color="#234f3c"/>
+      <stop offset="1" stop-color="#7c3f25"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#sky)"/>
+  <circle cx="690" cy="220" r="86" fill="#fff1b5" opacity=".86"/>
+  <path d="M0 430c120-84 238-112 356-84 140 34 212 128 322 116 76-8 139-55 222-116v854H0Z" fill="#285f58" opacity=".52"/>
+  <path d="M0 520c118-74 222-96 312-66 138 47 188 136 330 118 88-11 160-58 258-126v754H0Z" fill="url(#hill)" opacity=".8"/>
+  <path d="M0 665c132-65 264-84 396-57 145 30 298 21 504-72v664H0Z" fill="#183f30"/>
+  <g fill="none" stroke="#d6b862" stroke-linecap="round" opacity=".8">
+    <path d="M-20 720c190-74 358-88 506-42 106 33 236 20 434-44"/>
+    <path d="M-20 790c205-60 388-66 548-17 112 35 235 26 392-26"/>
+    <path d="M-20 860c224-50 420-48 588 4 108 33 225 29 352-12"/>
+    <path d="M-20 935c238-42 448-31 628 32 98 34 200 34 312 0"/>
+  </g>
+  <g opacity=".82">
+    <path d="M152 645c25-52 72-53 95-2-38 12-69 13-95 2Z" fill="#9ebf6c"/>
+    <path d="M186 641v96" stroke="#56341f" stroke-width="13" stroke-linecap="round"/>
+    <path d="M674 620c31-66 91-66 118 0-50 16-89 16-118 0Z" fill="#9ebf6c"/>
+    <path d="M731 618v118" stroke="#56341f" stroke-width="16" stroke-linecap="round"/>
+    <path d="M426 676c26-54 74-54 99 0-42 13-75 13-99 0Z" fill="#b4cf79"/>
+    <path d="M474 674v100" stroke="#56341f" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <path d="M0 1050c173-45 308-50 405-16 129 46 284 25 495-62v228H0Z" fill="#10251c" opacity=".9"/>
+</svg>

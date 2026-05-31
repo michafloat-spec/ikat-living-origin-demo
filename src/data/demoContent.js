@@ -2,24 +2,51 @@ export const demoContent = {
   brand: 'IKAT',
   headerBrand: 'IKAT',
   line: 'Living Origin',
-  lot: 'Batch #25AF72',
   cacaoType: 'Trinitario Cacao',
-  batchProfile: {
-    eyebrow: 'Batch tasting profile',
-    title: 'Bright cacao with a soft Flores finish.',
+  tastingNotes: {
+    eyebrow: 'Tasting notes',
+    title: 'A Taste of Flores',
+    supportingLine: 'Tested batch profile',
     copy:
-      'A warm, nutty chocolate base with a light tropical fruit lift and a fresh herbal edge from the origin.',
-    flavorNotes: ['Cocoa', 'Chocolate', 'Nutmeg', 'Nutty', 'Light tropical fruit', 'Fresh herbal'],
-    moments: [
-      { label: 'First impression', value: 'Clean cocoa' },
-      { label: 'Middle', value: 'Nutty chocolate' },
-      { label: 'Finish', value: 'Soft fruit' },
+      'This batch shows notes of warm chocolate, roasted nuts, red berry, tropical fruit and a fresh herbal finish.',
+    landscapeImage: './assets/tasting-volcano.png',
+    notes: [
+      { label: 'Chocolate', image: './assets/tasting-chocolate.png' },
+      { label: 'Roasted Nuts', image: './assets/tasting-nuts.png' },
+      { label: 'Red Berry', image: './assets/tasting-berries.png' },
+      { label: 'Tropical Fruit', image: './assets/tasting-tropical.png' },
+      { label: 'Herbal', image: './assets/tasting-herbal.png' },
     ],
+    factors: [
+      {
+        title: 'Volcanic soils',
+        copy: 'Rich minerals for depth and complexity.',
+        icon: 'mountain',
+      },
+      {
+        title: '6 day fermentation',
+        copy: 'Develops flavor and reduces bitterness.',
+        icon: 'ferment',
+      },
+      {
+        title: 'Sun dried',
+        copy: 'Slow drying to preserve aroma.',
+        icon: 'sun',
+      },
+      {
+        title: 'Flores origin',
+        copy: 'Grown on the lush island of Flores, Indonesia.',
+        icon: 'palm',
+      },
+    ],
+    originTitle: 'Born in Flores, Indonesia · 620 m elevation',
+    originCopy: 'Trinitario cacao · 4 named partners · 23 contributing families',
   },
   origin: {
     title: 'Flores Island, Indonesia',
     subtitle: 'The birthplace of this cacao.',
-    image: './assets/header-image.png',
+    image: './assets/header-jungle-flores.png',
+    lot: '#25AF72',
     altitude: '620 m',
     cacaoType: 'Trinitario',
     trees: '1,250',
@@ -41,6 +68,7 @@ export const demoContent = {
       image: './assets/farmer-ana.png',
       personalHeroImage: './assets/farmer-hero-ana.png',
       role: 'Harvest lead',
+      personalMeta: ['34 yrs', 'mother of two'],
       story:
         'Ana starts before sunrise and walks the shaded rows with her family, selecting only ripe pods for this batch. Her work keeps the harvest small, careful, and full of the bright fruit notes Flores cacao is known for.',
       farm: 'Wae Sano plot',
@@ -58,6 +86,7 @@ export const demoContent = {
       image: './assets/farmer-joko.png',
       personalHeroImage: './assets/farmer-hero-joko.png',
       role: 'Cacao grower',
+      personalMeta: ['36 yrs', 'married', '2 kids'],
       story:
         'Joko grows cacao beneath banana, coconut, and forest trees on a quiet ridge path above the village. He contributes beans with a steady, nutty profile and helps keep the origin blend balanced.',
       farm: 'Rana ridge',
@@ -75,6 +104,7 @@ export const demoContent = {
       image: './assets/farmer-made-small.png',
       personalHeroImage: './assets/farmer-hero-made.png',
       role: 'Main farmer',
+      personalMeta: ['42 yrs', 'co-op lead', '3 kids'],
       story:
         'Made contributes the largest share of this batch and coordinates the daily fermentation checks. He is the person who notices the small details: warmth, aroma, timing, and when the beans are ready to move on.',
       farm: 'Uma Sari Cooperative',
@@ -92,6 +122,7 @@ export const demoContent = {
       image: './assets/farmer-lina.png',
       personalHeroImage: './assets/farmer-hero-lina.png',
       role: 'Origin partner',
+      personalMeta: ['29 yrs', 'married', 'quality mentor'],
       story:
         'Lina farms a small mixed garden and brings a lighter floral character into the batch. She also supports training days where farmers compare drying, sorting, and post-harvest practices together.',
       farm: 'Kelimutu plot',
@@ -124,11 +155,24 @@ export const demoContent = {
       summary:
         'This cacao was delivered fresh from the same origin cluster within hours of harvest, then sorted before fermentation.',
       metrics: [
-        { label: 'Farmer + village', value: 'Made · Uma Sari' },
-        { label: 'Delivery time', value: '24 May · 10:40' },
+        { label: 'Village', value: 'Uma Sari' },
+        { label: 'Delivered', value: 'May 24 · 10:40' },
         { label: 'Brix + pH', value: '17.8° · 3.7 pH' },
-        { label: 'Freshness rating', value: 'A-' },
+        { label: 'Freshness', value: 'A-' },
       ],
+      timelineLabel: 'Dry beans volume',
+      timelineStat: '3.4 t peak',
+      timeline: [1.1, 1.8, 2.6, 2.4, 3.4, 1.2],
+      chart: {
+        yMin: 0,
+        yMax: 4,
+        gridValues: [1, 2, 3, 4],
+        yLabels: [
+          { label: '4t', value: 4 },
+          { label: '1t', value: 1 },
+        ],
+        xLabels: ['Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug'],
+      },
       profile: [
         { label: 'Ripeness', value: 88 },
         { label: 'Freshness', value: 92 },
@@ -147,9 +191,9 @@ export const demoContent = {
       summary:
         'The beans fermented in small wooden boxes with daily temperature checks and gentle turning for clean flavor development.',
       metrics: [
-        { label: 'Boxes', value: '4 · 42 kg avg.' },
         { label: 'Duration', value: '6 days' },
-        { label: 'Max temp.', value: '48.6 °C' },
+        { label: 'Peak temp', value: '48.6 °C' },
+        { label: 'Boxes', value: '4' },
         { label: 'Well fermented', value: '83%' },
       ],
       timelineLabel: 'Fermentation temperature',
@@ -167,8 +211,8 @@ export const demoContent = {
       },
       profile: [
         { label: 'Well fermented', value: 83 },
-        { label: 'Partly fermented', value: 14 },
-        { label: 'Under fermented', value: 3 },
+        { label: 'Partly fermented', value: 15 },
+        { label: 'Under fermented', value: 2 },
       ],
     },
     {
@@ -279,7 +323,7 @@ export const demoContent = {
     },
   ],
   impact: {
-    image: './assets/photo-community.png',
+    image: './assets/photo-community-village.png',
     title: 'Thank you!',
     copy: 'A portion of your purchase goes directly back to the farming community.',
     farmerPrice: '+38%',
@@ -291,7 +335,7 @@ export const demoContent = {
         type: 'Education',
         date: 'May 27, 2024',
         location: 'Uma Sari Cooperative · Flores',
-        image: './assets/photo-fermentation-list.png',
+        image: './assets/photo-fermentation-training.png',
         summary:
           'Farmers compared box temperature, turning rhythm, and cut-test results to improve clean fermentation across the origin cluster.',
         stats: [
@@ -305,7 +349,7 @@ export const demoContent = {
         type: 'Community tools',
         date: 'June 18, 2024',
         location: 'Wae Sano village · Flores',
-        image: './assets/photo-harvest-list.png',
+        image: './assets/photo-farm-tool-handover.png',
         summary:
           'Pruning shears, small saws, gloves, and harvest tools were distributed so partner farms can work more safely on cacao trees.',
         stats: [
@@ -319,7 +363,7 @@ export const demoContent = {
         type: 'Farm education',
         date: 'July 6, 2024',
         location: 'Rana Ridge learning plot · Flores',
-        image: './assets/photo-cacao-pods.png',
+        image: './assets/photo-cacao-quality-field-session.png',
         summary:
           'The group reviewed pod selection, shade management, and simple field notes that help connect each harvest to better batch records.',
         stats: [

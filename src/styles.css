@@ -203,7 +203,7 @@ img {
 
 .origin-hero {
   position: relative;
-  aspect-ratio: 430 / 520;
+  aspect-ratio: 430 / 548;
   min-height: 0;
   overflow: hidden;
   color: var(--white);
@@ -407,7 +407,7 @@ img {
   position: relative;
   z-index: 2;
   padding: 0 18px;
-  margin-top: -24px;
+  margin-top: -18px;
 }
 
 .farmers-card,
@@ -613,6 +613,10 @@ img {
 }
 
 .tasting-notes-copy-block .tasting-profile-source {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
   margin: 0 0 18px;
   color: var(--ink);
   font-family: var(--body);
@@ -621,6 +625,25 @@ img {
   letter-spacing: 0.08em;
   line-height: 1.2;
   text-transform: uppercase;
+}
+
+.tasting-lot-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 22px;
+  padding: 0 9px;
+  border-radius: 999px;
+  color: #6d6d6d;
+  background: #ededeb;
+  letter-spacing: 0.08em;
+}
+
+.tasting-lot-badge span {
+  width: 8px;
+  height: 8px;
+  border: 1.3px solid currentColor;
+  transform: rotate(45deg);
 }
 
 .tasting-landscape {

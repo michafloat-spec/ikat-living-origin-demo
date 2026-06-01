@@ -474,7 +474,13 @@ function TastingNotes({ copy, onViewMap }) {
         <div className="tasting-notes-copy-block">
           <span>{profile.eyebrow}</span>
           <h2 id="tasting-notes-title">{profile.title}</h2>
-          <p className="tasting-profile-source">{profile.supportingLine}</p>
+          <p className="tasting-profile-source">
+            <span>{profile.supportingLine}</span>
+            <span className="tasting-lot-badge" aria-label={`Batch ${demoContent.origin.lot}`}>
+              <span aria-hidden="true" />
+              {demoContent.origin.lot}
+            </span>
+          </p>
           <p>{profile.copy}</p>
         </div>
         <img className="tasting-landscape" src={profile.landscapeImage} alt="" aria-hidden="true" />
